@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//shashwath1278.github.io/weather-nod/static/css/main.26000045.css",
-    "main.js": "/https//shashwath1278.github.io/weather-nod/static/js/main.6689026d.js",
-    "static/js/453.4ee1f500.chunk.js": "/https//shashwath1278.github.io/weather-nod/static/js/453.4ee1f500.chunk.js",
-    "index.html": "/https//shashwath1278.github.io/weather-nod/index.html",
-    "main.26000045.css.map": "/https//shashwath1278.github.io/weather-nod/static/css/main.26000045.css.map",
-    "main.6689026d.js.map": "/https//shashwath1278.github.io/weather-nod/static/js/main.6689026d.js.map",
-    "453.4ee1f500.chunk.js.map": "/https//shashwath1278.github.io/weather-nod/static/js/453.4ee1f500.chunk.js.map"
+    "main.css": "/weather-nod/static/css/main.26000045.css",
+    "main.js": "/weather-nod/static/js/main.03e83e5f.js",
+    "static/js/453.4ee1f500.chunk.js": "/weather-nod/static/js/453.4ee1f500.chunk.js",
+    "index.html": "/weather-nod/index.html",
+    "main.26000045.css.map": "/weather-nod/static/css/main.26000045.css.map",
+    "main.03e83e5f.js.map": "/weather-nod/static/js/main.03e83e5f.js.map",
+    "453.4ee1f500.chunk.js.map": "/weather-nod/static/js/453.4ee1f500.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26000045.css",
-    "static/js/main.6689026d.js"
+    "static/js/main.03e83e5f.js"
   ]
 }
