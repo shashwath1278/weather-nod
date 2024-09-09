@@ -8,11 +8,11 @@ import './index.css';
 		const months = [
 			'January','February','March','April','May','June','July','August','September','October','November','December',
 		];
-		const WeekDays = [
+		const week = [
 			'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday',
 		];
 		const currentDate = new Date();
-		const date = `${WeekDays[currentDate.getDay()]} ${currentDate.getDate()} ${months[currentDate.getMonth()]
+		const date = `${week[currentDate.getDay()]} ${currentDate.getDate()} ${months[currentDate.getMonth()]
 			}`;
 		return date;
 	};
@@ -29,7 +29,7 @@ import './index.css';
 		if (event.key === 'Enter') {
 			event.preventDefault();
 			setInput('');
-			setWeather({ ...weather, loading: true });
+			setWeather({ weather, loading: true });
 			const url = 'https://api.openweathermap.org/data/2.5/weather';
 			const api_key = 'f00c38e0279b7bc85480c3fe775d518c';
 			await axios
@@ -55,7 +55,7 @@ import './index.css';
 	return (
 		<div className="App">
 			<h1 className="app">
-				 Weather App
+				<i> Weather App</i>
 			</h1>
 			<div className="search">
 				<input
